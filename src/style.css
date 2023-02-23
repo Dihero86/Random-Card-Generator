@@ -1,1 +1,63 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+* {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+body {
+  background-color: green;
+}
+
+.roja {
+  color: red;
+}
+
+.negro {
+  color: black;
+}
+
+#card {
+  background-color: white;
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+#palo-superior {
+  display: flex;
+  height: 20%;
+  justify-content: left;
+  padding: 0px 20px;
+}
+
+#palo-inferior {
+  display: flex;
+  height: 20%;
+  justify-content: right;
+  padding: 0px 20px;
+}
+
+.numero {
+  height: 60%;
+}
+
+h1 {
+  font-size: 300px;
+}
+h2 {
+  font-size: 80px;
+  vertical-align: center;
+  padding: 5px 5px;
+}
+
+#selectCard {
+  width: 100px;
+  height: 50px;
+}
+
+.selector {
+  margin-top: 20px;
+}
